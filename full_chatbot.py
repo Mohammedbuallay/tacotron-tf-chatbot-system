@@ -12,7 +12,7 @@ from playsound import playsound
 from hparams import hparams, hparams_debug_string
 
 hparams.parse('')
-checkpoint = 'new/model.ckpt-517000'
+checkpoint = 'mohd_model/model.ckpt-517000'
 synth = Synthesizer()
 hparams_debug_string()
 synth.load(checkpoint)
